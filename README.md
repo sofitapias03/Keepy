@@ -37,7 +37,7 @@ A player creates a Room and shares its unique invite code with others. Each play
 ---
 
 ### Game Lifecycle
-Any Room member can start a game by selecting a game type (Dominoes or Phase Ten) and choosing 2–10 participants. The game tracks rounds until the initiator ends it, at which point the final leaderboard is saved to Room History. Up to 5 games can run concurrently in the same Room. Rounds auto-advance after a 5-minute timeout, recording a score of 0 for any player who did not submit.
+Any Room member can start a game by selecting a game type (Dominoes or Phase Ten) and choosing 2–10 participants. The game tracks rounds until the initiator ends it, at which point the final leaderboard is saved to Room History. Recording a score of 0 for any player who did not submit.
 
 **Technology:** REST API for game state management, WebSocket for real-time round progression.
 
